@@ -47,7 +47,7 @@ time_current | file name
 2. cifar10
    
     python test.py --dataset=cifar10 --model_path=pdc_noniid
-
-3.cifar100
+   
+3. cifar100
 
     python test.py --dataset=cifar100 --model_path=pdc_noniid
