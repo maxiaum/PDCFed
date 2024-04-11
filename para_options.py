@@ -14,6 +14,7 @@ def args_parser():
     parser.add_argument('--lambda_max', type=float, default=0.999)
     parser.add_argument('--lambda_scale', type=float, default=1.0)
     parser.add_argument('--temper', type=float, default=0.9)
+    parser.add_argument('--diff_labeled', action='store_true', help='')
     parser.add_argument('--tau_upper',
                         type=float,
                         default=0.9,
