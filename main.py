@@ -61,7 +61,7 @@ if __name__ == '__main__':
     
     elif args.dataset == 'cifar10':
         if not os.path.isdir('tensorboard/cifar10/' + args.time_current):
-            os.mkdir('tensoboard/cifar10/' + args.time_current)
+            os.mkdir('tensorboard/cifar10/' + args.time_current)
         writer = SummaryWriter('tensorboard/cifar10/' + args.time_current)
     
     elif args.dataset == 'cifar100':
