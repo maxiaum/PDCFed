@@ -1,5 +1,5 @@
 # PDCFed
-The code for paper "Two-stage Sampling with Predicated Distribution Changes in Federated Semi-supervised Learning"
+The code for paper "Two-stage Sampling with Predicted Distribution Changes in Federated Semi-supervised Learning"
 ## Preparation
 1. Create conda environment:
 
